@@ -61,6 +61,9 @@
         elseif ($day == "Sat"){
             echo "<br> ida är det lördag";
         }
+        else {
+            echo "<br> Ogilitig dag";
+        }
         #etc etc
     ?>
 </body>
