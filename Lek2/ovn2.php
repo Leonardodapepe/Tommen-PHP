@@ -94,7 +94,7 @@ Age: <input type="text" name="age"><br>
         }
 
 
-/*
+
         #10 pages lorem ipsum
             $file = fopen("tomosarts.txt", "r");
 
@@ -102,7 +102,7 @@ Age: <input type="text" name="age"><br>
                 $line = fgets($file);
                 echo $line. "<br>";
               }
-              */
+
     ?>
     <form action="ovn2.php" method="post">
         <input type="number" name="1">
