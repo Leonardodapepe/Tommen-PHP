@@ -82,7 +82,7 @@
         "Taul" => '17.06.2000',
     );
     foreach ($people as $name => $birthday){
-        echo $name . 'är född i ' . $months[str_replace('0', " ", explode(".",$birthday)[1])-1] . "<br>";
+        echo $name . ' är född i ' . $months[str_replace('0', " ", explode(".",$birthday)[1])-1] . "<br>";
     }
 
     
